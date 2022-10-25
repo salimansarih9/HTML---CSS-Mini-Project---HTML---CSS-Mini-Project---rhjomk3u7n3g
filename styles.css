@@ -1,1 +1,114 @@
+body{
+    background-color: #EEEEEE;
+    margin: 0;
+}
+.photo_num{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    
+}
+
+#first_slide{
+    display: flex;
+    height: 100%;
+}
+
+#side_text{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#side_text_info{
+    display: block;
+    text-align: center;
+}
+
+.btn {
+    padding: 1rem 3rem;
+    border: 2px #ccc solid;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    color: #333;
+    font-weight: bold;
+}
+
+#picture_right{
+   display: block;
+   background: url(https://images.unsplash.com/photo-1420593248178-d88870618ca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80); 
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   flex: 0 1 60vw;
+   margin: 0;
+}
+main{
+    display: block;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+#header{
+    display: block;
+    background: #333333;
+    text-align: center;
+    color: #fff;
+    padding: 1.8rem;
+}
+#header h3{
+    border-left: dotted 1px white;
+    border-right: dotted 1px white;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0;
+    
+}
+footer{
+    display: block;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer h3{
+    font-size: 3rem;
+}
+footer p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    #picture_right{
+        display: block;
+        background: url(https://images.unsplash.com/photo-1420593248178-d88870618ca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80);
+        background-size: cover;
+        flex: 0 1 60vw;
+        margin: 0;
+    
+    }
+    .center{
+        width: 100%;
+    }
+
+    #side_text{
+        width: 50%;
+    }
+
+    footer h3{
+        font-size: 250%;
+    }
+
+}
 
